@@ -1,0 +1,12 @@
+Descripción de como usar la aplicación.
+
+•	Ejecute el programa.
+•	Fije la fecha actual con la cual trabajara el programa (mes y día).
+•	Elija la opción del submenú al que desea acceder ( 1- menú de clientes, 2 menú de suits, 3- menú de reservas, 4- menú de consultas, 5- menú de extras).
+1.1.	Menú de clientes: 1- Añadir cliente, 2- Eliminar cliente, 3- Modificar cliente.
+1.1.1.	Añadir cliente: introduzca los datos del cliente (nombre, apellidos, CI, teléfono)
+1.1.2.	Eliminar cliente: introduzca la CI del cliente que desea eliminar, el sistema verificara si ese cliente existe, si no existe regresa al menú principal, si existe, preguntara si desea eliminarlo, presione “s” para eliminar, “n” para regresar al menú principal
+1.1.3.	Modificar cliente: : introduzca la CI del cliente que desea modificar, el sistema verificara si ese cliente existe, si no existe regresa al menú principal, si existe, comenzara a preguntar que datos desea modificar, presione “s” en el dato que desea modificar, “n” para proseguir, al final de los datos regresara al menú principal
+1.2.	 Menú de suites: 1- Añadir suites, 2- Deshabilitar suite, 3- Habilitar suite.
+1.2.1.	Añadir suites: introduzca los datos de la suite (código, servicios, tipo, costo).
+1.2.2.	Deshabilitar suite: introduzca el código de la suite que desea deshabilitar, el sistema verificara si esa suite existe, si no existe regresa al menú principal, si existe, si existe, preguntara si desea deshabilitarla, presione “s” para hacerlo, “n” para regresar al menú principal. Si la deshabilita el sistema verificara las reservas q tiene la suit, y buscara las suits disponibles para la fecha de la reserva, ya queda por parte del usuario cambiar las habitaciones en base a la información de libres.
